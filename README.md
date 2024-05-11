@@ -3,8 +3,8 @@
 
 - Hãy nhớ 3 skills quan trọng trong lập trình:
     - Tìm kiếm thông tin. 
-    - Đọc hiểu hiểu
-    - Tư duy logic
+    - Đọc hiểu thông tin.
+    - Tư duy logic để giải quyết vấn đề.
 - 4 patterns quan trọng trong tư duy giải quyết vấn đề:
     - Decomposition - Chia nhỏ vấn đề
     - Pattern Recognition - Nhận diện sự tương đồng
