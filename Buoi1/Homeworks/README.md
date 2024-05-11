@@ -3,15 +3,7 @@
 - Đây là bài tập về phương pháp Brute Force trong Python. Mục tiêu của bài tập này là giúp bạn làm quen với cách giải quyết các bài toán thông qua phương pháp brute force, tức là duyệt qua tất cả các trường hợp có thể để tìm ra kết quả.
 - Sau khi đạt được mục tiêu, bạn sẽ có thể tối ưu hóa các giải pháp của mình thông qua các phương pháp khác như sử dụng các cấu trúc dữ liệu phù hợp, sử dụng các thuật toán tối ưu hơn, ...
 - Mục tiêu là giải quyết được vấn đề, không phải là giải quyết nhanh nhất. Bạn có thể sử dụng bất kỳ cách giải quyết nào mà bạn biết, miễn là nó hoạt động đúng.
-- Hãy nhớ 3 skills quan trọng trong lập trình:
-    - Tìm kiếm thông tin. 
-    - Đọc hiểu hiểu
-    - Tư duy logic
-- 4 patterns quan trọng trong tư duy giải quyết vấn đề:
-    - Decomposition - Chia nhỏ vấn đề
-    - Pattern Recognition - Nhận diện sự tương đồng
-    - Abstraction and representation - Tóm tắt và biểu diễn vấn đề, dữ liệu, thông tin,...
-    - Algorithm - Thiết kế giải thuật
+
 
 
 ## Mục Lục
