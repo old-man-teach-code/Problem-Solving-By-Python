@@ -1,5 +1,11 @@
 import time
 
+# Mảng chứa tất cả các chữ cái không viết hoa
+lowercase_letters = [chr(i) for i in range(ord('a'), ord('z') + 1)]
+
+# Mảng chứa tất cả các chữ cái viết hoa
+uppercase_letters = [chr(i) for i in range(ord('A'), ord('Z') + 1)]
+
 # Hàm check_password(input_password: str) -> bool nhận vào một chuỗi input_password và trả về True nếu chuỗi đúng mật khẩu
 def check_password(input_password: str) -> bool:
     hashed_password = simple_hash_function(input_password)
