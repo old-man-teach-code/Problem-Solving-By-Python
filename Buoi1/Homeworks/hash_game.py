@@ -17,18 +17,25 @@ def simple_hash_function(input_string: str) -> str:
     return hashed_string
 
 def find_password():
-    password = ""
+    password = "abcdef"
+    # TODO: Viết hàm tìm ra mật khẩu
     check_password(password)
-    # TODO: Tìm mật khẩu
-    return password
+    if check_password(password):
+        print("Mật khẩu đúng")
+        return password
+    else:
+        print("Sai mật khẩu")
+        return ""
 
 def main():
     # process time calculation 
     start = time.time()
+    print("----------------------------")
     password = find_password()
     print(f"Mật khẩu cần tìm là: {password}")
     end = time.time()
     print(f"Thời gian chạy: {end - start} giây")
+    print("----------------------------")
 
 
 if __name__ == '__main__':
