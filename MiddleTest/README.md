@@ -28,13 +28,16 @@ Lưu ý:
 
 Dữ liệu mẫu:
 Tệp "nhan_vien.txt":
+```
 Nguyễn Văn A,NV001,Trưởng phòng,15000000
 Trần Thị B,NV002,Nhân viên,8000000
 Lê Hoàng C,NV003,Phó phòng,12000000
 Phạm Văn D,NV004,Nhân viên,7500000
 Hoàng Thị E,NV005,Nhân viên,9000000
+```
 
 Kết quả mong đợi:
+```
 Phạm Văn D - NV004 - Nhân viên - 7500000
 Trần Thị B - NV002 - Nhân viên - 8000000
 Hoàng Thị E - NV005 - Nhân viên - 9000000
@@ -42,3 +45,4 @@ Lê Hoàng C - NV003 - Phó phòng - 12000000
 Nguyễn Văn A - NV001 - Trưởng phòng - 15000000
 
 Tổng chi phí lương: 51500000
+```
