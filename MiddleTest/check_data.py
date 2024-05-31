@@ -21,6 +21,6 @@ danh_sach_nhan_vien = doc_du_lieu(ten_tap_tin)
 print(f"Thành công tạo {len(danh_sach_nhan_vien)} bản ghi nhân viên")
 if len(danh_sach_nhan_vien) > 0:
     print("Sample: ")
-    print(danh_sach_nhan_vien[0])
+    print(f"{danh_sach_nhan_vien[0][0]} - {danh_sach_nhan_vien[0][1]} - {danh_sach_nhan_vien[0][2]} - {danh_sach_nhan_vien[0][3]}")
 else:
     print("Không tồn tại hoặc tạo thất bại")
