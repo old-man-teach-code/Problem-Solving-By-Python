@@ -5,12 +5,15 @@ Yêu cầu:
 1. Thiết kế một cấu trúc dữ liệu phù hợp để lưu trữ thông tin của mỗi nhân viên.
 
 2. Viết một chương trình Python để đọc danh sách nhân viên từ một tệp văn bản có định dạng sau:
+   ```
    Họ tên,Mã nhân viên,Chức vụ,Mức lương
+   ```   
    Ví dụ:
+   ```
    Nguyễn Văn A,NV001,Trưởng phòng,15000000
    Trần Thị B,NV002,Nhân viên,8000000
    ...
-
+   ```
 3. Sử dụng thuật toán sắp xếp để sắp xếp danh sách nhân viên theo mức lương tăng dần.
 
 4. In ra danh sách nhân viên đã được sắp xếp theo định dạng:
