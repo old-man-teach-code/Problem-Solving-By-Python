@@ -19,8 +19,15 @@ ten_tap_tin = 'nhan_vien.txt'
 # Gán dữ liệu mảng vào biến danh_sach_nhan_vien
 danh_sach_nhan_vien = doc_du_lieu(ten_tap_tin)
 print(f"Thành công tạo {len(danh_sach_nhan_vien)} bản ghi nhân viên")
-if len(danh_sach_nhan_vien) > 0:
+if len(danh_sach_nhan_vien) > 1:
     print("Sample: ")
     print(f"{danh_sach_nhan_vien[0][0]} - {danh_sach_nhan_vien[0][1]} - {danh_sach_nhan_vien[0][2]} - {danh_sach_nhan_vien[0][3]}")
+    print(f"{danh_sach_nhan_vien[1][0]} - {danh_sach_nhan_vien[1][1]} - {danh_sach_nhan_vien[1][2]} - {danh_sach_nhan_vien[1][3]}")
+    print("----------Test đảo thử vị trí 2 nhân viên dùng biến tạm----------")
+    temp = danh_sach_nhan_vien[0]
+    danh_sach_nhan_vien[0] = danh_sach_nhan_vien[1]
+    danh_sach_nhan_vien[1] = temp
+    print(f"{danh_sach_nhan_vien[0][0]} - {danh_sach_nhan_vien[0][1]} - {danh_sach_nhan_vien[0][2]} - {danh_sach_nhan_vien[0][3]}")
+    print(f"{danh_sach_nhan_vien[1][0]} - {danh_sach_nhan_vien[1][1]} - {danh_sach_nhan_vien[1][2]} - {danh_sach_nhan_vien[1][3]}")
 else:
     print("Không tồn tại hoặc tạo thất bại")
